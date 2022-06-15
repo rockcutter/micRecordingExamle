@@ -1,6 +1,7 @@
 ﻿# include <Siv3D.hpp>
 #include <fstream>
 
+
 void ReadBinary(std::string& data, const std::string& path) {
 	data = "";
 	std::ifstream ifs(path, std::ios::binary);
